@@ -241,14 +241,6 @@ a:hover, a:active {
     color: #9e4059;
     text-decoration: underline;
 }
-.entry-title a:link,
-.entry-title a:visited,
-#site-title a:link,
-#site-title a:visited {
-    text-decoration: none;
-}
-.entry-title a:hover,
-.entry-title a:active,
 #site-title a:hover,
 #site-title a:active  {
     text-decoration: underline;
@@ -260,13 +252,5 @@ a:hover, a:active {
 }
 footer {
     background: #000;
-    color: #fff;
-}
-footer a:link,
-footer a:visited {
-    color: #666;
-}
-footer a:hover,
-footer a:active {
     color: #fff;
 }
