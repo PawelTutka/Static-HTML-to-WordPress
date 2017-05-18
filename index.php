@@ -5,7 +5,7 @@
 
                 <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf(esc_attr__('Permalink to %s', 'compass'), the_title_attribute('echo=0')); ?>" rel="bookmark">Tytul strony lub postu</a></h2>
 
-                <img src="images/featured-image.jpg" class="size-large">
+                <img src="<?php bloginfo('template_url')?> /images/featured-image.jpg" class="size-large">
 
                 <section class="entry-meta">
                     <p>Posted on <?php the_date(); ?> by <?php the_author(); ?></p>
